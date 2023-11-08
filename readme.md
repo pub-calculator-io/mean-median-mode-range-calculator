@@ -12,9 +12,8 @@ The Mean, Median, Mode, and Range calculator helps you find these statistics qui
 3. Activate the [Mean, Median, Mode, Range Calculator](https://www.calculator.io/mean-median-mode-range-calculator/ "Mean, Median, Mode, Range Calculator Homepage") plugin through the "Plugins" menu in WordPress.
 
 ## Usage
-* Add the shortcode `[ci_mean_median_mode_range_calculator]` to your page or post and configure default mortgage parameters.
-* If you are using widgets, just add the Mean, Median, Mode, Range Calculator to the sidebar through the `Appearance -> Widgets -> Mean, Median, Mode, Range Calculator` menu in WordPress.
-* Add the following code: `<?php display_ci_mean_median_mode_range_calculator(); ?>` to your template where you would like the Mean, Median, Mode, Range Calculator to appear.
+* Add the shortcode `[ci_mean_median_mode_range_calculator]` to your page, post or sidebar.
+* Or add the following code: `<?php display_ci_mean_median_mode_range_calculator(); ?>` to your template where you would like the Mean, Median, Mode, Range Calculator to appear.
 
 ## Libraries in Use
 1. https://mathjs.org/
