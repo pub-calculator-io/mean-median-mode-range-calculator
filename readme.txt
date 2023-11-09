@@ -13,6 +13,8 @@ The Mean, Median, Mode, and Range calculator helps you find these statistics qui
 
 The Mean, Median, Mode, and Range calculator helps you find these statistics quickly and conveniently. Learn how to use this calculator's output by reading this article.
 
+[Mean, Median, Mode, Range Calculator Homepage](https://www.calculator.io/mean-median-mode-range-calculator/ "Mean, Median, Mode, Range Calculator Homepage")
+
 __Shortcode__
 
 Use the Mean, Median, Mode, Range Calculator shortcode:
