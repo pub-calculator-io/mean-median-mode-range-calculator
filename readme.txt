@@ -1,4 +1,4 @@
-=== Mean, Median, Mode, Range Calculator by Calculator.iO ===
+=== Mean, Median, Mode, Range Calculator ===
 Contributors: calculatorio
 Tags: mean median mode range calculator, calculate mean median mode range, central tendency calculator, find mean median mode range, statistical calculator, arithmetic mean, median calculation, mode of data, range calculation, mean median mode range formula, calculate central tendency
 Requires at least: 5.0
