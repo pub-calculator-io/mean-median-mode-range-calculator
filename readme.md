@@ -1,4 +1,4 @@
-# Mean, Median, Mode, Range Calculator WordPress Widget by [Calculator.iO](https://www.calculator.io/ "Calculator.iO Homepage")
+# Mean, Median, Mode, Range Calculator Widget for WordPress
 
 The Mean, Median, Mode, and Range calculator helps you find these statistics quickly and conveniently. Learn how to use this calculator's output by reading this article.
 
