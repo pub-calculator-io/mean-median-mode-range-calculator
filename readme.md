@@ -7,7 +7,7 @@ The Mean, Median, Mode, and Range calculator helps you find these statistics qui
 
 ## Installation
 
-1. [Download](https://github.com/pub-calculator-io/age-calculator/archive/refs/heads/master.zip) the ZIP file of this repository.
+1. [Download](https://github.com/pub-calculator-io/mean-median-mode-range-calculator/archive/refs/heads/master.zip) the ZIP file of this repository.
 2. Upload the /mean-median-mode-range-calculator-master/ folder to the /wp-content/plugins/ directory.
 3. Activate the [Mean, Median, Mode, Range Calculator](https://www.calculator.io/mean-median-mode-range-calculator/ "Mean, Median, Mode, Range Calculator Homepage") plugin through the "Plugins" menu in WordPress.
 
