@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name: Mean, Median, Mode, Range Calculator by www.calculator.io
+Plugin Name: CI Mean median mode range calculator
 Plugin URI: https://www.calculator.io/mean-median-mode-range-calculator/
 Description: The Mean, Median, Mode, and Range calculator helps you find these statistics quickly and conveniently. Learn how to use this calculator's output by reading this article.
 Version: 1.0.0
