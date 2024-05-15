@@ -28,17 +28,27 @@
             <div class="calculator-setting" id="calculator_form">
                 <div class="calculator-content col">
                 	<div class="input-wrapper row">
-                		<label class="input col  ">
+                		<label class="input col ">
                 			<p class="input__title">Data Set</p>
                 			<div class="input-field row">
                 				
-                				<input type="text" class="input-field__input" placeholder="" id="data_set" value="48, 43, 38, 32, 15, 12, 38, 15, 21, 25" />
+                				<textarea name="data_set" id="data_set"" class="input-field__input input-field__input--textarea" placeholder="" ">48, 43, 38, 32, 15, 12, 38, 15, 21, 25</textarea>
                 				
                 			</div>
                 			<div class="input-hints row">
                 				<span class="input-hints__hint input-hints__hint--comma">Comma-separated numbers</span>
                 			</div>
-                		</label>	</div>
+                			<script>
+                				document.querySelectorAll('.input-field__input--textarea').forEach((input) => {
+                					input.addEventListener('input', (e) => {
+                						input.style.height = "40px"
+                						let scrollHeight = e.target.scrollHeight
+                						input.style.height = scrollHeight + "px"
+                					})
+                				})
+                			</script>
+                		</label>
+                	</div>
                 </div>
                 
                 <div class="calculator-content calculator-content--gray calculator-content--footer calculator-content--small row  " >
@@ -46,14 +56,17 @@
                 
                 
                 
-                	<button class="button button--primary ml-auto" onclick="calculate(this)">Calculate</button>
+                	<button class="button button--primary ml-auto" onclick="calculate(this); animateElements();" data-action="calculate" id="action-button">Calculate</button>
                 </div>
                 
-                	<script type="text/javascript" src="./assets/js/chart.js" id="chartjs_script"></script>
+                	<script type="text/javascript" src="./assets/js/lib/chartjs/chart.min.js" id="chartjs_lib" defer></script>
+                	<script type="text/javascript" src="./assets/js/chart.js" id="chartjs_script" defer></script>
                 
                 
                 
-                	<script type="text/javascript" src="./assets/js/calculator.js"></script>
+                
+                
+                	<script type="text/javascript" src="./assets/js/calculator.js" defer></script>
             </div>
         </div>
     </div>
@@ -68,8 +81,7 @@
         </svg>
         		<p class="calculator-error__title">There was an error with your calculation.</p>
         	</div>
-        	<div class="col" id="error-list">
-        	</div>
+        	<div class="col" id="error-list"></div>
         </div>        <span id="calculator_result"><div class="calculator-result col">
 	<div class="result-table__wrapper">
 		<table class="result-table">
@@ -78,7 +90,7 @@
 					<th class="dark indigo" colspan="4">Result</th>
 				</tr>
 			</thead>
-			<tbody>
+			<tbody class="animate">
 				<tr>
 					<th>Mean (Average)</th>
 					<td id="mean">28.7</td>

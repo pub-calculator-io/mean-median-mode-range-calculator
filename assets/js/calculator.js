@@ -54,10 +54,10 @@ function mode(array) {
 		}
 	});
 	if(result.length === 1) {
-		return result[0] + ' appeared ' + max + ' times';
+		return result[0] + ' appeared ' + plural(max, 'times:time:times:times:times:times');
 	}
 	else {
-		return result.join(', ') + ' each appeared ' + max + ' times'
+		return result.join(', ') + ' each appeared ' + plural(max, 'times:time:times:times:times:times');
 	}
 }
 

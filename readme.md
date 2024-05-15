@@ -3,7 +3,6 @@
 The Mean, Median, Mode, and Range calculator helps you find these statistics quickly and conveniently. Learn how to use this calculator's output by reading this article.
 
 ![Mean, Median, Mode, Range Calculator Input Form](/assets/images/screenshot-1.png "Mean, Median, Mode, Range Calculator Input Form")
-![Mean, Median, Mode, Range Calculator Calculation Results](/assets/images/screenshot-2.png "Mean, Median, Mode, Range Calculator Calculation Results")
 
 ## Installation
 
