@@ -1,6 +1,6 @@
 # Mean, Median, Mode, Range Calculator Widget for WordPress
 
-The Mean, Median, Mode, and Range calculator helps you find these statistics quickly and conveniently. Learn how to use this calculator's output by reading this article.
+Instantly calculate the mean, median, mode, and range of any data set. Our free statistics calculator makes finding central tendency fast, easy, and accurate!
 
 ![Mean, Median, Mode, Range Calculator Input Form](/assets/images/screenshot-1.png "Mean, Median, Mode, Range Calculator Input Form")
 
@@ -11,8 +11,8 @@ The Mean, Median, Mode, and Range calculator helps you find these statistics qui
 3. Activate the [Mean, Median, Mode, Range Calculator](https://www.calculator.io/mean-median-mode-range-calculator/ "Mean, Median, Mode, Range Calculator Homepage") plugin through the "Plugins" menu in WordPress.
 
 ## Usage
-* Add the shortcode `[ci_mean_median_mode_range_calculator]` to your page, post or sidebar.
-* Or add the following code: `<?php display_ci_mean_median_mode_range_calculator(); ?>` to your template where you would like the Mean, Median, Mode, Range Calculator to appear.
+* Add the shortcode `[calcio_mean_median_mode_range_calculator]` to your page, post or sidebar.
+* Or add the following code: `<?php display_calcio_mean_median_mode_range_calculator(); ?>` to your template where you would like the Mean, Median, Mode, Range Calculator to appear.
 
 ## Libraries in Use
 1. https://mathjs.org/
